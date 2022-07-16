@@ -17,3 +17,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.nav-bg{
+  background-color: #153d50;
+}
+.font-18{
+  font-size: 18px;
+}

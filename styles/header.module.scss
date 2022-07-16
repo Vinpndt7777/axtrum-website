@@ -1,0 +1,13 @@
+$primary-color: #64ff00;
+:export {
+  primaryColor: $primary-color;
+}
+.container{
+  max-width: 1140px;
+  width:100%;
+  margin: 0 auto;
+}
+.bgimage{
+  background-image: url('/public/home/hero-banner.jpg'); 
+  background-size: cover;
+}

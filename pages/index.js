@@ -1,7 +1,17 @@
+import dynamic from 'next/dynamic'
+import Head from 'next/head';
+import Link from 'next/link';
+import Layout from '../components/common/layout';
+const HeroBanner = dynamic(() => import('../components/home/hero.banner'))
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    <Layout home>
+      <Head>
+        <title>Axtrum | Better Business Solutions</title>
+      </Head>
+      <HeroBanner></HeroBanner>
+    </Layout>
+    </>
   )
 }
